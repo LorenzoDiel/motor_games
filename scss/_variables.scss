@@ -1,0 +1,18 @@
+$color-primario: rgb(172, 118, 118);
+$color-secundario: rgb(26, 26, 200);
+$display-center: (
+  display: flex,
+  justify-content: center,
+  align-items: center,
+  flex-direction: column
+);
+$color-footer: rgb(97, 21, 25);
+$color-texto-main: rgb(255, 255, 255);
+$color-texto-secundario: rgb(255, 255, 255);
+@mixin apply-styles($styles) {
+  @each $prop, $value in $styles {
+    #{$prop}: $value;
+  }
+}
+$color-texto-footer: rgb(222, 213, 213);
+

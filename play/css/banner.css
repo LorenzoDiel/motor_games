@@ -1,0 +1,27 @@
+.visible {
+    display: flex;
+    overflow: hidden;
+    height: 40px; /* Altura de cada elemento */
+    font-size: la;
+    color: rgb(4, 6, 7);
+  }
+  
+  .carousel {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    animation: scroll 8s linear infinite;
+  }
+  
+  .carousel li {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  @keyframes scroll {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-160px); }
+  }
+  
+  

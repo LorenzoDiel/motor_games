@@ -1,0 +1,74 @@
+@import 'variables';
+
+body {
+    background-color: $color-primario;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: $color-texto-main
+}
+
+.contenedor{
+    
+}
+
+.content{
+    @include apply-styles($display-center);
+    height: 100vh;
+    background-image: url("../assets/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+.contentBanner{
+    @include apply-styles($display-center);
+    color: $color-texto-secundario;
+}
+
+
+.loadWsp {
+    display: none;
+}
+
+.contentLeyenda {
+    @include apply-styles($display-center);
+    text-align: center;
+}
+
+.bono{
+    @include apply-styles($display-center);
+    text-align: center;
+}
+
+.containerLista{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.containerItem{
+    @include apply-styles($display-center);
+    text-align:center
+}
+.btnwsp {
+    background: transparent;
+    border: none; /* si no deseas borde */
+    border-radius: 5px;
+}
+.imgboton {
+    background: transparent;
+    border-radius: 10px;
+}
+
+footer{
+    @include apply-styles($display-center);
+    text-align: center;
+    color: $color-texto-footer;
+    background-color: $color-footer;
+}
+
