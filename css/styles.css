@@ -1,7 +1,8 @@
 body {
-  background-color: rgb(172, 118, 118);
-  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(155, 179, 207);
+  font-family: "Bebas Neue", sans-serif;
   font-optical-sizing: auto;
+  font-size: 20px;
   font-weight: 500;
   font-style: normal;
   color: rgb(255, 255, 255);
@@ -13,7 +14,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url("../assets/background.png");
+  background-image: url("../assets/background_azul.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -62,7 +63,7 @@ body {
   text-align: center;
 }
 
-.btnwsp {
+.botonwsp {
   background: transparent;
   border: none; /* si no deseas borde */
   border-radius: 5px;
@@ -80,7 +81,7 @@ footer {
   flex-direction: column;
   text-align: center;
   color: rgb(222, 213, 213);
-  background-color: rgb(97, 21, 25);
+  background-color: rgb(22, 21, 97);
 }
 
 /*# sourceMappingURL=styles.css.map */

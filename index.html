@@ -10,9 +10,9 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<!-- Meta Pixel Code -->
-    <script>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!-- Meta Pixel Code -->
+        <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
         n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -21,22 +21,22 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1787359875167222');
+        fbq('init', '1027243762713358');
         fbq('track', 'PageView');
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"  src="https://www.facebook.com/tr?id=1787359875167222&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Meta Pixel Code -->
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1027243762713358&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Meta Pixel Code -->
     </head>
     <body>
         <div class="contenedor">
             <div class="content">
-                <div class="contentLogo mb-3">	
-                    <img src='assets/titulo.png' width='400' height='100'>		
+                <div class="contentLogo mb-4 mt-4 mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mb-lg-4 mt-lg-4 mb-xl-4 mt-xl-4">	
+                    <img src='assets/logo_redondo.png' width='150' height='150'>		
                 </div>
                 <div class="contentTitulo">	
-                    <div class='contentBanner mb-2'>
+                    <div class='contentBanner mb-1'>
                         <div class='visible'>
                             <div class="me-2">JUGÁ</div>
                             <div>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div id = "contentBoton" class="contentBoton">	
-                    <button  rel='nofollow noreferrer' role='link' id='botónEnviarSolicitud' class=btnwsp><img src='assets/btnwsp.png' class="imgboton animate__animated animate__headShake animate__infinite" width='80%' height='80%' ></button>			
+                    <button  rel='nofollow noreferrer' role='link' id='botónEnviarSolicitud' class=botonwsp><img src='assets/boton_wsp.png' class="imgboton animate__animated animate__pulse animate__infinite" width='70%' height='70%' ></button>			
                 </div>
                 <div id=loadWsp class=loadWsp>
                     <div id=conecting class=conecting>
@@ -68,11 +68,11 @@
                 </div>
                 <script type="text/javascript">
                     document.getElementById('botónEnviarSolicitud').addEventListener('click', function() {
-                        var wsp='5491131188206';	//Nro de wsp	
-                        var pixel='1787359875167222';	//Falta cambiar pixel Id 	            
+                        var wsp='5491131188066';	//Nro de wsp	
+                        var pixel='1027243762713358';	//Falta cambiar pixel Id 	            
                         const shareUrl = 'https://motorgames.online';    // Falta cambiar url
                         const shareText = 'Hola, quiero crear un usuario! Mi nombre es: ';
-                        const whatsappUrl = `https://api.whatsapp.com/send?phone=5491131188206&text=${encodeURIComponent(shareText)}`;
+                        const whatsappUrl = `https://api.whatsapp.com/send?phone=5491131188066&text=${encodeURIComponent(shareText)}`;
                         window.location.href = whatsappUrl;
                         fbq('trackCustom', 'Contact', {
                             button_name: 'EnviarSolicitud',
@@ -84,8 +84,10 @@
                     <p>HACE CLIC EN EL BOTON PARA <br> CREAR TU USUARIO</p>
                 </div>
                 <div class=bono>
-                    <div id=leyenda class="leyenda animate__animated animate__zoomIn animate__infinite">
-                        <p><b>TODOS LOS DIAS<br>10% EN TU PRIMERA CARGA</b></p>	
+                    <div id=leyenda class="leyenda animate__animated animate__pulse animate__infinite">
+                        <img src="assets/boton_bono.png" alt="Boton de Bono" width="400" height="100" class="">
+                    </div>
+                    <div class="minimoCarga">
                         <p>Minimo de carga <b>$2.000</b></p>
                     </div>
                 </div>
